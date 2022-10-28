@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddExerciseActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtExerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:layout_marginTop="100dp"
+        android:hint="Exercise Name" />
+
+    <Spinner
+        android:id="@+id/spinMuscleGroup"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"/>
+
+    <Spinner
+        android:id="@+id/spinEquipment"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtSets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="Sets" />
+
+    <EditText
+        android:id="@+id/edtReps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="Reps" />
+
+    <EditText
+        android:id="@+id/edtRest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="Rest" />
+
+    <!--<EditText
+        android:id="@+id/edtDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="Duration" />-->
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Exercise" />
+
+</LinearLayout>

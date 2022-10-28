@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MyWorkoutApp</string>
+
+    <string-array name="days">
+        <item>Select a Day for your Routine!</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="muscleGroups">
+        <item>Select a Muscle Group!</item>
+        <item>Traps</item>
+        <item>Shoulders</item>
+        <item>Chest</item>
+        <item>Triceps</item>
+        <item>Biceps</item>
+        <item>Forearm</item>
+        <item>Abs</item>
+        <item>Back</item>
+        <item>Lower Back</item>
+        <item>Butt</item>
+        <item>Quadriceps</item>
+        <item>Hamstrings</item>
+        <item>Calves</item>
+        <item>Cardio</item>
+    </string-array>
+
+    <string-array name="equipment">
+        <item>Select Equipment!</item>
+        <item>Dumbbell</item>
+        <item>Barbell</item>
+        <item>EZ Bar</item>
+        <item>Machine</item>
+        <item>Body</item>
+        <item>Plate</item>
+        <item>Kettlebell</item>
+        <item>Elastic Band</item>
+        <item>Ball</item>
+        <item>Bar</item>
+        <item>Rope</item>
+        <item>Bench</item>
+        <item>Supported</item>
+    </string-array>
+</resources>
